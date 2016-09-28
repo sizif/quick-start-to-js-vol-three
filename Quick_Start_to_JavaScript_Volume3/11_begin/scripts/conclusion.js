@@ -4,6 +4,7 @@ function ObjectName(param1, param2, paramN){
     this.paramN = paramN
 }
 
-var varName = new ObjectName("param1", "param2", "paramN");
+var varNameAsObjectInstance = new ObjectName("param1", "param2", "paramN");
 
-console.log("I've made a new object with these params: " + varName.param1 + ", " + ", " + varName.param2 + ", " + varName.paramN);
+console.log("I've made a new object with these params: " +
+                varName.param1 + ", " + ", " + varName.param2 + ", " + varName.paramN);
